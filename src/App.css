@@ -1,0 +1,12 @@
+
+body{
+  margin:0px;
+  padding:0px;
+}
+
+#QuoteBox{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background:red;
+}
