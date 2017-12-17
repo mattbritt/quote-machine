@@ -10,7 +10,8 @@ import styles from '../helpers/styles';
 export class Author extends React.Component{
     render(){
         return (
-            <div style={styles.Author}>
+            <div id='author'
+                style={styles.Author}>
             <h3>- {this.props.author}</h3>
                 </div>
         );

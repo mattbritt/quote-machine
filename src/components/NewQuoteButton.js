@@ -12,7 +12,7 @@ export class NewQuoteButton extends React.Component{
     render(){
       //  styles.background = this.props.color;
         return(
-            <div 
+            <div id='new-quote'
                 style={{...styles.largeButton,...{background:this.props.color}}}
                 onClick={this.props.getNewQuote}>
              <p>New Quote</p>

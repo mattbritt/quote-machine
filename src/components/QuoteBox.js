@@ -17,8 +17,9 @@ import {ButtonRow} from './ButtonRow';
 export class QuoteBox extends React.Component {
     render(){
         return (
-            <div style={{...styles.QuoteBox,...{color:this.props.color}}}>
-        <h1><i className='fa fa-quote-left' /> {this.props.quote}</h1>
+            <div id='quote-box'
+                style={{...styles.QuoteBox,...{color:this.props.color}}}>
+        <h1 id='text'><i className='fa fa-quote-left' /> {this.props.quote}</h1>
         <Author author={this.props.author}/>
         <ButtonRow 
             color={this.props.color}
